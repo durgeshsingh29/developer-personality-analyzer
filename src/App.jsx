@@ -8,6 +8,7 @@ function App() {
   // 🤖 AI ENGINE (improved scoring system)
   const getAIProfile = (user) => {
     const repos = user.public_repos || 0;
+  
     const followers = user.followers || 0;
     const following = user.following || 0;
 
